@@ -171,8 +171,9 @@ body {
 
 .hero {
   position: relative;
-
+  background: #deddd9;
   height: 100vh;
+  width: 1280px !important;
 }
 
 #hero-canvas {
@@ -180,7 +181,7 @@ body {
 
   inset: 0;
 
-  width: 100vw;
+  width: 80vw;
 
   height: 100vh;
 
@@ -2452,6 +2453,7 @@ SOCIAL GRID IMAGE
 .social-grid {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -2462,7 +2464,7 @@ SOCIAL GRID IMAGE
 }
 
 .social-grid img {
-  width: 33%;
+  width: 32%;
 
   display: block;
 
