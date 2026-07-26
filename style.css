@@ -1,7 +1,7 @@
 /*=========================================================
     INTRODUCTION SECTION
 =========================================================*/
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
   --bg: #f8f5ef;
   --surface: #ffffff;
@@ -12,8 +12,8 @@
 
   --border: rgba(0, 0, 0, 0.08);
 
-  --heading-font: "Syne", sans-serif;
-  --body-font: "Manrope", sans-serif;
+  --heading-font: "Georgia", sans-serif;
+  --body-font: "Inter", sans-serif;
 
   --container: 1400px;
 
@@ -631,7 +631,7 @@ WRITER WORLD RESPONSIVE
 
   height: 100%;
 
-  object-fit: cover;
+  object-fit: contain;
 
   border-radius: 32px;
 

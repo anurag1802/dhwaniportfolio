@@ -352,7 +352,7 @@ if (heroCanvas) {
   const frameCount = 240;
 
   const currentFrame = (index) =>
-    `assets/videos/motionv1/frame_${String(index).padStart(3, "0")}.jpg`;
+    `assets/videos/motionv2/Comp 1_${String(index).padStart(5, "0")}.webp`;
 
   const images = [];
 
