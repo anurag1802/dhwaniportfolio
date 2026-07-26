@@ -1252,8 +1252,6 @@ LOGO
 
   transition: all 0.45s ease;
 
-  filter: grayscale(100%);
-
   opacity: 0.75;
 }
 
