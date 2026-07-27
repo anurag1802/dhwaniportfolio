@@ -427,7 +427,7 @@ if (heroCanvas) {
 
       start: "top top",
 
-      end: "+=4000",
+      end: "+=2500",
 
       scrub: 0.2,
 
