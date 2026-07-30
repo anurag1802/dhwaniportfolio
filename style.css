@@ -1513,7 +1513,7 @@ IMAGE
 
   overflow: hidden;
 
-  height: 620px;
+  height: 400px;
 }
 
 .case-image img {
@@ -3161,5 +3161,57 @@ RESPONSIVE
 
   .contact-float {
     width: 38px;
+  }
+}
+
+.magazines {
+  background: var(--bg);
+  padding: 4rem 0;
+}
+
+.magazine-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.magazine-item {
+  flex: 1;
+  max-width: 340px;
+  text-align: center;
+}
+
+.magazine-item img {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  transition: var(--transition);
+}
+
+.magazine-item:hover img {
+  transform: translateY(-8px);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.12);
+}
+
+.magazine-item figcaption {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .magazine-gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .magazine-item {
+    max-width: 300px;
   }
 }
