@@ -427,7 +427,7 @@ if (heroCanvas) {
 
       start: "top top",
 
-      end: "+=2500",
+      end: "+=1100",
 
       scrub: 0.2,
 
@@ -448,7 +448,7 @@ const tl = gsap.timeline({
 
     start: "top+=50 top",
 
-    end: "+=150%",
+    end: "+=80%",
 
     scrub: true,
 
@@ -465,7 +465,7 @@ tl.to(
 
     filter: "blur(10px)",
 
-    duration: 1,
+    duration: 0.6,
   },
   0,
 );
@@ -503,9 +503,9 @@ tl.to(
 /* Next section */
 
 gsap.from(".intro", {
-  y: 180,
+  y: 80,
 
-  scale: 0.96,
+  scale: 0.99,
 
   opacity: 0,
 
